@@ -96,7 +96,7 @@ nav ul a {
 
 
 p {
-  font-size: 15pt;
+  font-size: 13pt;
   line-height: 1.5;
 }
 
@@ -226,5 +226,23 @@ ol li p{
 }
 
 .system_img {
+  width: 100%;
+}
+
+#drawback p{
+  font-size: 12pt;
+}
+
+#sys-concept img{
+  width: 100%;
+}
+
+img.big-picture {
+  width: 100vw;
+
+}
+
+
+#prototyping img {
   width: 100%;
 }

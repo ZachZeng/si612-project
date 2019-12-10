@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Group3</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+<header class="main_h">
+
+    <!-- <div class="row">
+        <nav>
+            <ul>
+                <li><a href="#problem">Problem statement</a></li>
+                <li><a href="#motivation">Motivation and Observations</a></li>
+                <li><a href="#ideation">Ideation Process</a></li>
+                <li><a href="#concepts">Concepts</a></li>
+            </ul>
+        </nav>
+
+    </div> -->
+
+</header>
+
+<div id='main-wrapper'>
+  <!-- Start Header -->
+  <div class='wrapper' id='main-header'>
+    <!-- <h1>Header</h1> -->
+    <div id="header-wrapper">
+    	<h1>MILESONE4
+        </h1>
+    </div>
+  </div>
+  <main>
+	  <div id="sys-concept" class="main-section">
+	  	<h2>System Concept</h2>
+        <img class="big-picture" src="./images/milestone4/system.png" alt="System Concept">
+        <p>Our systems mainly consists of two parts:</p>
+        <ul>
+            <li>
+                <p>
+                    <b>Smart mirror: </b>mirror itself is mainly used to help users measure the body shape, display the temporal data of the user and simple schedule. The interactions combined hand gesture with voice command which will be talked about later in each of the features.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <b>Mobile Application: </b> the application connected to the mirror stored the data gathered from the mirror and mainly used for users to retrieve their historical body data and compare their change of body data.
+                </p>
+            </li>
+        </ul>
+        <p>The features of System:</p>
+        <ul>
+            <li>
+                <p>
+                    Body measurement process: The mirror will use voice and also visual indicator to suggest users to move to the required position and adjust their body gesture to let us better record his or her body shape data. After measurement, it will show users the current body data information as the overlay on the mirror at the position of the body part of your reflection.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Schedule measurement: Users will use hand gesture to schedule the frequency of the measurement which will result in the notification in our mobile application.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Historical Data Compare: Users can check their body data whenever they want on the mobile application and also compare the data along the timeline.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Application Notification: Users will receive notification reminding them to measure the body through the mobile application.
+                </p>
+            </li>
+        </ul>
+        <h3>High-level architecture</h3>
+        <img src="./images/milestone4/high-level.jpg" alt="high-level architecture">
+        
+      </div>
+      
+      <div id="goals" class="main-section">
+        <h2>Goals</h2>
+        <p>
+           The aspects of experience of the system we try to replicate with the demo
+        </p>
+        <ul>
+            <li>
+                Onboarding
+                <ul>
+                    <li>Position prompt process: Scan; Voice command </li>
+                    <li>Schedule Measurement: Voice command</li>
+                </ul>
+            </li>
+            <li>
+                Routine Compare
+                <ul>
+                    <li>Position prompt process: Scan; Voice command </li>
+                    <li>Cellphone Usage</li>
+                </ul>
+            </li>
+        </ul>
+      
+      </div>
+
+      <div id="demo" class="main-section">
+        <h2>Demo Setup</h2>
+        <h3>Demo Script</h3>
+        <h4>Onboarding</h4>
+        <p><b>(WHO)</b> Jane is a 22-year-old university student who strives to live a healthy life by changing their body shapes. The challenges she has is lack of motivation in maintaining motivated and being aware of if they are on the right track. She decided to purchase our product. <b>(WHEN)</b> This is the first day after she bought the smart mirror. <b>(WHERE)</b> She stood in front of the mirror in her bedroom to create her body data profile.</p>
+        <img style="width: 70%;" src="./images/milestone4/Scene1.png">
+        <ul>
+            
+        </ul>
+        <h4>Routine Compare</h4>
+        <p>It has been a month since Jane brought the smart mirror. Through this month, she already used the smart mirror weekly.  <b>(WHEN)</b> This is the day she went back home from the gym. <b>(WHERE)</b> She stood in front of the mirror  in her bedroom to scan her body. With the help of mirror’s analysis and instructions, she was able to compare her current body data with the past ones and know her progress. </p>
+        <img style="width: 70%;" src="./images/milestone4/Scene2.png">
+        
+        <h3>Demo Material</h3>
+        <figure>
+            <img src="./images/milestone4/Mirror.jpeg" alt="demo-mirror">
+            <figcaption>13*49 Mirror</figcaption>
+            <img src="./images/milestone4/Projector.jpeg" alt="demo-projector">
+            <figcaption>EPSON Projector</figcaption>
+        </figure>
+        
+        <div style="text-align: center;">
+            <h3>Voice Wizard of OZ</h3>
+            <img src="./images/milestone4/wizard.png" alt="demo-wizard" style="width: 300px;">
+        </div>
+      
+
+      <div id="prototyping" class="main-section">
+        <h2>Prototyping Process</h2>
+        <p>
+            The prototyping process mainly consists of the following steps:
+        </p>
+            <p>First, we discussed and developed a detailed script describing the main user scenarios of our product and the steps. </p>
+            <p>Second, we collaboratively designed the lo-fi wireframes on Figma based on the defined user scenarios, and then visualize them into hi-fi version.                </p>
+            <h3>Figma collaborative prototyping</h3>
+            <img src="./images/milestone4/Figma.png" alt="prototype-process-1">
+            <p>Then,  we set up the mirror and the projector, trying to ensure that the projected figures can be clearly shown on the mirror.</p>
+            <h3>Setting Up Environment</h3>
+            <img src="./images/milestone4/prototyping_processing_projector.jpeg" alt="prototype-process-2">
+        </div>
+        
+        
+      
+        </div>
+
+      <div id="evaluation" class="main-section">
+        <h2>Demo Evaluation</h2>
+        <ul id="drawback">
+            <li>
+                <p>
+                    The demo demonstrates the majority of the features we want in our product. It went through the two main use scenarios - onboarding and routine compare. During the scenarios, we show details of how technologies such as voice interaction, body recognition work in an ideal way.
+                </p>
+            </li>
+            <li>
+                <p>
+                        However, due to the technical limitations in both software and hardware, we could only use Wizard-of-wiz to mock the overall flow. Therefore, the accuracy and efficiency of body recognition data may be biased.
+                </p>
+            </li>
+        </ul>
+      
+      </div>
+
+        <div id="feedback" class="main-section">
+            <h2>Feedback & Insights</h2>
+            <p>
+                Any feedback or insights that came out of preparing the demo.
+            </p>
+            <ul>
+                <li>
+                    While deciding on how to implement the demo of our mirror, we first consider about using Adafruit devices. 
+                    we found prototyping with actual digital screen difficult. We explore more ways to prototyping and finally decided on using a projector to simulate the overlay UI components of mirror.
+
+                </li>
+                <li>
+                    Scripts is really important to keep everything clear and organized. We set two scenarios first and then, according to different scenarios explore further details of different interactions of our product in the specific scene.
+                </li>
+                <li>
+                    Wizard of OZ is really helpful when we cannot implement voice recognation or other techinical-difficult interaction.  
+                </li>
+            </ul>
+           
+        
+        </div>
+
+	  
+  
+  </main>
+
+  <footer class='wrapper' id='main-footer'>
+    
+  </footer>
+</div>
+
+
+</body>
+</html>
