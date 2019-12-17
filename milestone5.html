@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Group3</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+<header class="main_h">
+
+    <!-- <div class="row">
+        <nav>
+            <ul>
+                <li><a href="#problem">Problem statement</a></li>
+                <li><a href="#motivation">Motivation and Observations</a></li>
+                <li><a href="#ideation">Ideation Process</a></li>
+                <li><a href="#concepts">Concepts</a></li>
+            </ul>
+        </nav>
+
+    </div> -->
+
+</header>
+
+<div id='main-wrapper'>
+  <!-- Start Header -->
+  <div class='wrapper' id='main-header'>
+    <!-- <h1>Header</h1> -->
+    <div id="header-wrapper">
+    	<h2>MILESTONE 5</h2>
+    	<h1>Final Report and Video</h1>
+    </div>
+  </div>
+  <main>
+	  <div id="final_product" class="main-section">
+	  	<h2>Final Product & Value proposition</h2>
+        <img class="big-picture" src="./images/milestone4/system.png" alt="System Concept">
+        <p>The smart mirror is a futuristic product that can be realized when 3D dynamic object recognition technology is more mature. The mirror is designed to support people who have the need of knowing if their workout is effective by seeing actual body shape changes during the bodybuilding process.</p>
+        
+        
+      </div>
+      
+      <div id="motivation" class="main-section">
+        <h2>Motivation</h2>
+        <p>
+            Lack of motivation is a primary reason to stop people from maintaining the workout and diet habits. Through observation, we found that body shape change provides evidence for the effectiveness of workout plan, which turns out to be an important stimulus to keep people motivated.
+        </p>
+        
+      
+      </div>
+
+      <div id="key_insights" class="main-section">
+        <h2>Key insights</h2>
+        <h3>Cultural probe & Interviews</h3>
+        <p>At the very beginning, our primary concern toward this project was whether the project will provoke people’s body anxiety. To better understand people’s perceptions of body shape and determine the user group we could better target to, we want to explore the following research questions through cultural probe:</p>
+        
+        <ul>
+            <li>
+                How do people in different cultures think of their body shapes?
+            </li>
+            <li>
+                What are the ideal body shapes in different cultures?
+            </li>
+        </ul>
+        <p>Once we addressed the above concerns, we asked more research questions through interviews: </p>
+        <ul>
+            <li>
+                What is people’s goal through workout and diet habits?
+            </li>
+            <li>
+                How do people keep track of their workout and diet outcomes?
+            </li>
+            <li>
+                When and in what context would they think of their body shapes?
+            </li>
+            <li>
+                What behaviors and emotions result from the changes in body shape?
+            </li>
+        </ul>
+        <figure>
+            <img src="./images/milestone5/key1.jpg" alt="demo-mirror">
+            <img src="./images/milestone5/key2.png" alt="demo-projector">
+            <img src="./images/milestone5/key3.jpg" alt="demo-projector">
+        </figure>
+        
+        <p>We found that:</p>
+        <ul>
+            <li>
+                Weight is not ideal for reflecting body conditions or workout progress
+            </li>
+            <li>
+                Seeing changes in body shape is motivational and help knowing if the workout has been effective.
+            </li>
+            <li>
+                Pain points regarding current methods of seeing changes in body shapes:
+                <ul>
+                    <li>
+                        Hard to see visible changes simply by looking in the mirror (usually takes long notice significant changes and they are not accurate) - Doubt if the workout is effective
+                    </li>
+                    <li>
+                        Hard to see certain parts of the body - the back
+                    </li>
+                    <li>
+                        Accurately measure and track takes too much time and effort
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h3>User enactments</h3>
+        <p>After the prior formative research, we brainstormed design concepts and then designed the specific features for the chosen concept - smart mirror. To evaluate our design direction and proposed features, we conducted user enactments with five users who are all people who work out constantly and aim to change their body shapes. From which we tried to answer the following questions:</p>
+        <ul>
+            <li>How do users perceive privacy issue of the mirror concept? Do they feel invasive with this device recording their bodies?</li>
+            <li>
+                What features in the mirror are most valuable and useful for user?
+            </li>
+            <li>
+                What is the right balance between sending necessary push notifications for motivational purpose and avoiding making users feeling annoyed?
+            </li>
+            <li>
+                What is the most appropriate and comfortable way of displaying body data that avoid users having adverse feelings towards the product and their bodies?
+            </li>
+        </ul>
+        <figure>
+            <img src="./images/milestone5/usert1.jpg" alt="demo-mirror">
+            <img src="./images/milestone5/user2.jpeg" alt="demo-projector">
+        </figure>
+
+        <p>
+            Here are our study results:
+        </p>
+
+        <ul>
+            <li>
+                Privacy is a top priority concern, and they are willing to sacrifice their user experience to maintain privacy. 2 participants mentioned that they were worried about the privacy issue of personal body image (possibly only with underwear) and related data. 1 participant doesn’t want to see his own face in the mirror /prefers his face to be blurred on purpose to protect his identity.
+            </li>
+            <li>
+                Interaction Type: People would like to focus on one interaction media through an interaction flow. For them, voice interaction and gesture recognition on the mirror can be an immersive choice, while meanwhile, they would like to use mobile application for complex interactions, such as choosing a specific date, get notifications, and interact with backend data for complex settings and data checking.
+            </li>
+            <li>
+                Nature of feedback: Feedback, no matter positive and negative body shape change, should be able to prompt positive emotions and actions. 
+            </li>
+            <li>
+                Role of Mirror: Users prefer mirrors as it’s a more familiar and immersive approach for them to measure their body shape, review body information and easy-to-use interaction.
+            </li>
+        </ul>
+    </div>
+        
+        
+      
+
+      <div id="key_feature" class="main-section">
+        <h2>Key features</h2>
+        <ul>
+            <li>
+                Body measurement
+                <p>
+                    The user could do body measurement and view those data from our smart mirror. The mirror has a camera to auto-detect the user’s standing location and gestures and provides the user instructions to meet the requirement for scanning and measuring. The body data includes chest, arm, waist, thigh, and calf.
+                </p>
+            </li>
+            <li>
+                Schedule measurement
+                <p>
+                    When setting up the smart mirror, the user could set the schedule based on their personal needs. The options are varied by the time such as ‘‘once per week’, for users to get reminders and structured comparable data on the process.
+                </p>
+            </li>
+            <li>
+                Historical data compare
+                <p>
+                    The smart mirror has a data system both in the mirror and the accompanying mobile application. After collecting data from scanning and measuring, the system automatically measures the changes between today's data and the historical data. The comparison results display both on the mirror screen and the mobile app and are able to zoom in to specific areas of the body shape.
+                </p>
+            </li>
+            <li>
+                Multi-modality operations
+                <ul>
+                    <li>
+                        Accompanying mobile app
+                        <p>
+                            The mobile app has the 3D mesh body shape of the real-time user displayed on the home screen, with a backup system of all historical data. The user uses the mobile app to compare data from any time period and get reminders to measure their bodies.
+                        </p>
+                    </li>
+                    <li>
+                        Gesture recognition
+                        <p>
+                            The smart mirror recognizes the users’ real-time gestures and gives instructions to adjust location and gestures while scanning and system measuring.
+                        </p>
+                    </li>
+                    <li>
+                        Voice command
+                        <p>
+                            The users communicate with the mirror by voice command. All the instructions on setup and further measuring are given by voice command. For example, users follow the voice command to adjust standing location and gestures and communicate with the voice command to set up the measurement schedule.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        </div>
+        
+        
+      
+
+      <div id="video" class="main-section">
+        <h2>Videon</h2>
+        <iframe width="420" height="315"
+        src="https://youtu.be/eNQtEn109uY">
+        </iframe>
+      
+      </div>
+
+    <div id="prototype" class="main-section">
+        <h2>Experience prototype and results</h2>
+        <p>
+            We basically prototype every feature of our products including measure body shape, schedule measurement, compare historical data. Due to technical constraints and limitations, we cannot implement the body track and real digital display in the mirror but we try our best to present the whole experience of the usage of the mirror. 
+        </p>
+        <p>
+            The material we used includes a mirror and a projector. We create user interface images and project them onto the mirror. We control and change the image projected to the mirror to demonstrate the actual interfaces users will go through during the usage. Ultimately, we use google translate to fake the voice instructions that come out from the mirror. Combined with a mobile application prototype, the whole system is controlled by the Wizard of Oz.
+        </p>
+        <figure>
+                <img src="./images/milestone4/Mirror.jpeg" alt="demo-mirror">
+                <figcaption>13*49 Mirror</figcaption>
+                <img src="./images/milestone4/Projector.jpeg" alt="demo-projector">
+                <figcaption>EPSON Projector</figcaption>
+        </figure>
+        
+    
+    </div>
+
+    <div id="ideal" class="main-section">
+        <h2>Ideal system proposal</h2>
+        <img src="./images/milestone4/high-level.jpg" alt="high-level architecture">
+        
+    </div>
+
+    <div id="reflection" class="main-section">
+        <h2>Reflection</h2>
+        <h3>Limitation and Concerns</h3>
+        <ul>
+            <li>
+                Privacy: Privacy is still a primary barrier for people to use our product. First, currently, for a user to use our product, they have to wear skin-tight bodysuit for the mirror to scan their body. Second, the scanned data will inevitably include users’ sensitive data such as face and body shape.
+            </li>
+            <li>
+                Technical feasibility: Currently, we assume that the dynamic body shape recognition technology is mature enough to be able to detect fine body changes and display the changes in real-time when users move. However, the technology hasn’t been there yet.
+            </li>
+        </ul>
+        
+    </div>
+    
+
+
+	  
+  
+  </main>
+
+  <footer class='wrapper' id='main-footer'>
+    
+  </footer>
+</div>
+
+
+</body>
+</html>
